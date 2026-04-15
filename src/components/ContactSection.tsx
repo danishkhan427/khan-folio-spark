@@ -1,6 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef, useState } from "react";
-import { Mail, Phone, MapPin, Send, ExternalLink } from "lucide-react";
+import { Mail, Phone, MapPin, Send } from "lucide-react";
 
 const LinkedinIcon = () => (
   <svg viewBox="0 0 24 24" fill="currentColor" className="w-[18px] h-[18px]">
@@ -76,7 +76,7 @@ const ContactSection = () => {
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors"
               >
-                <Linkedin className="text-primary" size={18} />
+                <LinkedinIcon />
               </a>
               <a
                 href="https://github.com/danishkhan552"
@@ -84,7 +84,7 @@ const ContactSection = () => {
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors"
               >
-                <Github className="text-primary" size={18} />
+                <GithubIcon />
               </a>
             </div>
           </motion.div>

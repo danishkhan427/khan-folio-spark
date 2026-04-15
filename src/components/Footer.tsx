@@ -26,7 +26,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors"
           >
-            <Linkedin size={18} />
+            <LinkedinIcon />
           </a>
           <a
             href="https://github.com/danishkhan552"
@@ -34,7 +34,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors"
           >
-            <Github size={18} />
+            <GithubIcon />
           </a>
           <a
             href="mailto:danishdeveloper22@gmail.com"

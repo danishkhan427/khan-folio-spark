@@ -60,7 +60,7 @@ const ProjectsSection = () => {
             >
               <div className="flex items-center justify-between">
                 <h3 className="font-semibold text-foreground text-lg">{p.title}</h3>
-                <Github className="text-muted-foreground group-hover:text-primary transition-colors" size={18} />
+                <GithubIcon />
               </div>
               <p className="text-sm text-muted-foreground leading-relaxed">{p.description}</p>
               <div className="flex flex-wrap gap-1.5">
