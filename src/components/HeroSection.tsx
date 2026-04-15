@@ -60,7 +60,8 @@ const HeroSection = () => {
               <Mail size={18} /> Hire Me
             </a>
             <a
-              href="#contact"
+              href="/Muhammad_Danish_Khan_Resume.pdf"
+              download
               className="inline-flex items-center gap-2 border border-border bg-secondary text-secondary-foreground px-6 py-3 rounded-lg font-medium hover:bg-muted transition-colors"
             >
               <Download size={18} /> Download Resume
