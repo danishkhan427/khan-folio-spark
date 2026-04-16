@@ -28,7 +28,7 @@ const AboutSection = () => {
             <span className="text-gradient">robust solutions</span>
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed">
-            I'm a Full Stack .NET Core Developer based in Lahore, Pakistan, with 1+ year of experience
+            I'm a Full Stack .NET Core Developer based in Lahore, Pakistan, with 1.5+ year of experience
             crafting scalable web applications. I specialize in ASP.NET Core, Blazor, Web APIs, and
             SQL Server, with a strong focus on clean architecture and microservices. I love turning
             complex business requirements into elegant, efficient software.
