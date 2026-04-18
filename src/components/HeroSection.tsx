@@ -36,7 +36,7 @@ const HeroSection = () => {
             className="space-y-4 max-w-2xl"
           >
             <p className="text-primary font-mono text-sm tracking-wider uppercase">
-              Full Stack .NET Core Developer
+              Full Stack .NET Developer
             </p>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight">
               Muhammad Danish{" "}
@@ -60,7 +60,7 @@ const HeroSection = () => {
               <Mail size={18} /> Hire Me
             </a>
             <a
-              href="/Danish_Khan_NET_Resume_v2.pdf"
+              href="/Danish_I_Khan_NET_Resume_v2.pdf"
               download
               className="inline-flex items-center gap-2 border border-border bg-secondary text-secondary-foreground px-6 py-3 rounded-lg font-medium hover:bg-muted transition-colors"
             >

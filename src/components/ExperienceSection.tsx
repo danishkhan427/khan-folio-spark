@@ -17,7 +17,7 @@ const jobs = [
   },
   {
     company: "Netrix Solutions",
-    role: ".NET Developer",
+    role: "Full Stack .NET Developer",
     period: "Sep 2024 – April 2025",
     current: false,
     bullets: [
