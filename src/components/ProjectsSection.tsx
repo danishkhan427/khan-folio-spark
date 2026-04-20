@@ -8,25 +8,32 @@ const GithubIcon = () => (
 
 const projects = [
   {
-    title: "HR Management System",
+    title: "Human Resource Management System (HRMS)",
+    period: "March 2025",
     description:
-      "A comprehensive HR platform with employee management, attendance tracking, and payroll processing built on microservices architecture.",
-    tech: ["Blazor", "ASP.NET Core", "Microservices", "EF Core", "SQL Server"],
-    features: ["Employee CRUD", "Attendance Tracking", "Role-based Access", "Reporting Dashboard"],
+      "Modular HRMS with microservices, Blazor UI, role-based views, and secure authentication—covering employees, departments, and leave.",
+    tech: ["ASP.NET Core", "Blazor", "EF Core", "Microservices", "SQL Server"],
+    features: [
+      "Microservices architecture with dynamic, role-based UI and data pagination",
+      "Employee profiles, departments, and leave tracking",
+      "JWT-based authentication",
+    ],
   },
   {
-    title: "Social Media Platform",
+    title: "HED Social Media Platform",
+    period: "December 2024",
     description:
-      "A full-featured social media web application with post creation, commenting, real-time notifications, and user profiles.",
-    tech: ["ASP.NET MVC", "jQuery", "SQL Server", "SignalR", "Bootstrap"],
-    features: ["User Profiles", "Post & Comments", "Real-time Notifications", "Search & Filter"],
+      "Academic collaboration platform with secure login, feeds, and interactive posts—responsive UI with AJAX-driven updates.",
+    tech: ["ASP.NET MVC", "jQuery", "AJAX", "SQL Server"],
+    features: ["Secure login", "Post feeds with likes and comments", "Real-time-style data via AJAX", "Responsive UI"],
   },
   {
     title: "Online FIR System",
+    period: "December 2023",
     description:
-      "A digital First Information Report system allowing citizens to file complaints online with status tracking and admin management.",
-    tech: ["ASP.NET MVC", "AJAX", "SQL Server", "jQuery", "Bootstrap"],
-    features: ["Online FIR Filing", "Status Tracking", "Admin Panel", "PDF Report Generation"],
+      "Citizen-facing portal for online FIR filing and status tracking, with AJAX for responsive interactions.",
+    tech: ["ASP.NET MVC", "jQuery", "AJAX", "SQL Server"],
+    features: ["Online FIR filing", "Real-time status tracking", "AJAX-driven UI updates"],
   },
 ];
 
@@ -58,10 +65,11 @@ const ProjectsSection = () => {
               transition={{ duration: 0.5, delay: i * 0.15 }}
               className="glass rounded-xl p-6 space-y-4 hover:border-primary/30 transition-all hover:-translate-y-1 group"
             >
-              <div className="flex items-center justify-between">
-                <h3 className="font-semibold text-foreground text-lg">{p.title}</h3>
+              <div className="flex items-center justify-between gap-2">
+                <h3 className="font-semibold text-foreground text-lg leading-snug">{p.title}</h3>
                 <GithubIcon />
               </div>
+              <p className="text-[11px] font-mono text-primary/90">{p.period}</p>
               <p className="text-sm text-muted-foreground leading-relaxed">{p.description}</p>
               <div className="flex flex-wrap gap-1.5">
                 {p.tech.map((t) => (

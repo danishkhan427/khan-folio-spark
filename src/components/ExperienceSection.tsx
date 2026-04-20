@@ -5,26 +5,27 @@ import { Briefcase } from "lucide-react";
 
 const jobs = [
   {
-    company: "Micro Data Tech Solution",
+    company: "2B Vision Technologies",
+    location: "Lahore, Pakistan",
     role: "Full Stack .NET Developer",
-    period: "May 2025 – Present",
-    current: true,
+    period: "April 2025 – April 2026",
+    current: false,
     bullets: [
-      "Developing enterprise-grade web applications using ASP.NET Core and Blazor",
-      "Designing and implementing RESTful APIs with clean architecture principles",
-      "Collaborating with cross-functional teams to deliver scalable solutions",
+      "Collaborated on enterprise-level applications using ASP.NET Core, Blazor, and EF Core",
+      "Designed and implemented RESTful APIs and integrated frontends with a microservices-based backend",
+      "Improved performance and maintainability using Clean Architecture, Repository Pattern, and Unit of Work",
+      "Worked in Agile cycles with code reviews, sprint planning, and debugging for quality delivery",
     ],
   },
   {
     company: "Netrix Solutions",
-    role: "Full Stack .NET Developer",
-    period: "Sep 2024 – April 2025",
+    location: "Dera Ismail Khan, Pakistan",
+    role: ".NET Developer",
+    period: "April 2024 – March 2025",
     current: false,
     bullets: [
-      "Built and maintained web applications using ASP.NET MVC and Web APIs",
-      "Implemented database solutions with SQL Server and Entity Framework Core",
-      "Participated in code reviews and adopted best practices for clean code",
-      "Developed microservices-based HR Management System",
+      "Developed and maintained scalable web apps with ASP.NET Core, MVC, and Blazor across project phases",
+      "Built and integrated RESTful Web APIs for core workflows, connecting Blazor UI to backend services",
     ],
   },
 ];
@@ -66,6 +67,7 @@ const ExperienceSection = () => {
                     <div>
                       <h3 className="font-semibold text-foreground text-lg">{job.company}</h3>
                       <p className="text-primary text-sm font-medium">{job.role}</p>
+                      <p className="text-xs text-muted-foreground mt-0.5">{job.location}</p>
                     </div>
                     <span className="text-xs font-mono text-muted-foreground flex items-center gap-2">
                       {job.current && (

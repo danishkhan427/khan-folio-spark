@@ -4,9 +4,9 @@ import { useRef } from "react";
 import { Code2, Layers, Zap } from "lucide-react";
 
 const highlights = [
-  { icon: Code2, label: "1.5+ Year Experience", desc: "Professional .NET development" },
+  { icon: Code2, label: "2+ Years Experience", desc: "Professional .NET development" },
   { icon: Layers, label: "Clean Architecture", desc: "Scalable, maintainable code" },
-  { icon: Zap, label: "Full Stack", desc: "Backend to frontend delivery" },
+  { icon: Zap, label: "Full Stack", desc: "APIs, Blazor, and data layers" },
 ];
 
 const AboutSection = () => {
@@ -28,10 +28,10 @@ const AboutSection = () => {
             <span className="text-gradient">robust solutions</span>
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed">
-            I'm a Full Stack .NET Developer based in Lahore, Pakistan, with 1.5+ year of experience
-            crafting scalable web applications. I specialize in ASP.NET Core, Blazor, Web APIs, and
-            SQL Server, with a strong focus on clean architecture and microservices. I love turning
-            complex business requirements into elegant, efficient software.
+            I'm a results-driven Full Stack .NET Developer with 2+ years of experience building scalable web
+            applications using ASP.NET Core, MVC, Blazor, and C#. I'm skilled in RESTful APIs, microservices, and
+            Clean Architecture, and I focus on maintainable, testable code in agile environments—turning complex
+            requirements into reliable software.
           </p>
         </motion.div>
 
@@ -53,6 +53,30 @@ const AboutSection = () => {
               <p className="text-sm text-muted-foreground">{h.desc}</p>
             </div>
           ))}
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          animate={inView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.6, delay: 0.35 }}
+          className="max-w-3xl mx-auto mt-16 space-y-8 text-center md:text-left"
+        >
+          <div className="glass rounded-xl p-6 space-y-3">
+            <h3 className="font-semibold text-foreground">Education</h3>
+            <p className="text-sm text-muted-foreground leading-relaxed">
+              <span className="text-foreground font-medium">Bachelor of Science in Computer Science</span>
+              {" — "}
+              CGPA 3.76 / 4.0
+              <br />
+              Gomal University, Pakistan
+            </p>
+          </div>
+          <div className="glass rounded-xl p-6 space-y-3">
+            <h3 className="font-semibold text-foreground">Languages</h3>
+            <p className="text-sm text-muted-foreground leading-relaxed">
+              English (Proficient) · Urdu (Fluent) · Saraiki (Fluent) · Pashto (Fluent)
+            </p>
+          </div>
         </motion.div>
       </div>
     </section>

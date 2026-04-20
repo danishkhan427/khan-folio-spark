@@ -20,7 +20,7 @@ const HeroSection = () => {
             <div className="w-36 h-36 rounded-full bg-gradient-primary p-[2px]">
               <img
                 src={profileImg}
-                alt="Muhammad Danish Khan"
+                alt="Muhammad Idrees"
                 className="w-full h-full rounded-full object-cover bg-background"
               />
             </div>
@@ -39,11 +39,12 @@ const HeroSection = () => {
               Full Stack .NET Developer
             </p>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight">
-              Muhammad Danish{" "}
-              <span className="text-gradient">Khan</span>
+              Muhammad{" "}
+              <span className="text-gradient">Idrees</span>
             </h1>
             <p className="text-muted-foreground text-lg max-w-xl mx-auto">
-              Building scalable web applications with .NET Core, clean architecture, and modern frontend technologies.
+              Results-driven Full Stack .NET Developer building scalable web apps with ASP.NET Core, Blazor, RESTful APIs,
+              and Clean Architecture—focused on maintainable, testable code in agile teams.
             </p>
           </motion.div>
 
@@ -60,8 +61,8 @@ const HeroSection = () => {
               <Mail size={18} /> Hire Me
             </a>
             <a
-              href="/Danish_I_Khan_NET_Resume_v2.pdf"
-              download
+              href="/Muhammad_Idrees_Resume.pdf"
+              download="Muhammad_Idrees_Resume.pdf"
               className="inline-flex items-center gap-2 border border-border bg-secondary text-secondary-foreground px-6 py-3 rounded-lg font-medium hover:bg-muted transition-colors"
             >
               <Download size={18} /> Download Resume

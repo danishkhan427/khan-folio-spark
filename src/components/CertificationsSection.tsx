@@ -24,11 +24,7 @@ const CertificationsSection = () => {
               </h2>
             </div>
             <div className="space-y-4">
-              {[
-                "ASP.NET Core Web Development",
-                "C# Programming Fundamentals",
-                "SQL Server Database Management",
-              ].map((cert, i) => (
+              {["Career Essentials in Software Development — Microsoft & LinkedIn (2024)"].map((cert, i) => (
                 <div
                   key={i}
                   className="glass rounded-xl p-4 flex items-center gap-3 hover:border-primary/30 transition-colors"
@@ -60,11 +56,10 @@ const CertificationsSection = () => {
                 <Trophy className="text-primary" size={28} />
               </div>
               <h3 className="font-semibold text-foreground text-lg">
-                2nd Position — Programming Competition
+                2nd place — JMC college-level project competition
               </h3>
               <p className="text-sm text-muted-foreground leading-relaxed">
-                Secured 2nd position in a competitive programming competition, demonstrating
-                strong problem-solving skills and algorithmic thinking under pressure.
+                Ranked 2nd (December 2024) for innovation and technical excellence.
               </p>
             </div>
           </motion.div>

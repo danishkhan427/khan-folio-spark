@@ -3,28 +3,32 @@ import { useRef } from "react";
 
 const categories = [
   {
-    title: "Frameworks",
-    skills: ["ASP.NET Core", "MVC", "Blazor", "Web APIs"],
+    title: "Languages",
+    skills: ["C#", "SQL"],
   },
   {
-    title: "Languages",
-    skills: ["C#", "SQL", "JavaScript", "TypeScript"],
+    title: "Frameworks & technologies",
+    skills: ["ASP.NET Core", "ASP.NET MVC", "Blazor", "Razor Pages", "Web APIs", "AJAX"],
+  },
+  {
+    title: "Data access & ORM",
+    skills: ["EF Core", "ADO.NET", "Repository Pattern", "Unit of Work"],
   },
   {
     title: "Frontend",
-    skills: ["HTML", "CSS", "jQuery", "AJAX"],
+    skills: ["HTML5", "CSS3", "jQuery", "AJAX", "Bootstrap"],
   },
   {
     title: "Databases",
-    skills: ["SQL Server", "PostgreSQL"],
-  },
-  {
-    title: "Tools",
-    skills: ["Git", "GitHub", "Visual Studio", "VS Code"],
+    skills: ["Microsoft SQL Server", "PostgreSQL"],
   },
   {
     title: "Architecture",
-    skills: ["MVC", "Clean Architecture", "Microservices", "REST APIs"],
+    skills: ["MVC", "Clean Architecture", "Microservices"],
+  },
+  {
+    title: "Tools & platforms",
+    skills: ["Visual Studio", "SSMS", "Git", "GitHub", "Docker"],
   },
 ];
 

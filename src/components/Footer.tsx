@@ -17,11 +17,11 @@ const Footer = () => {
     <footer className="border-t border-border py-8">
       <div className="container mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
         <p className="text-sm text-muted-foreground">
-          © {new Date().getFullYear()} Muhammad Danish Khan. All rights reserved.
+          © {new Date().getFullYear()} Muhammad Idrees. All rights reserved.
         </p>
         <div className="flex gap-4">
           <a
-            href="https://www.linkedin.com/in/muhammad-danish-khan-114775344"
+            href="https://www.linkedin.com/in/devmidrees"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors"
@@ -29,7 +29,7 @@ const Footer = () => {
             <LinkedinIcon />
           </a>
           <a
-            href="https://github.com/danishkhan552"
+            href="https://github.com/devmidrees"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors"
@@ -37,7 +37,7 @@ const Footer = () => {
             <GithubIcon />
           </a>
           <a
-            href="mailto:danishdeveloper22@gmail.com"
+            href="mailto:devmidrees@gmail.com"
             className="text-muted-foreground hover:text-primary transition-colors"
           >
             <Mail size={18} />

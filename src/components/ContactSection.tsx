@@ -22,7 +22,7 @@ const ContactSection = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    window.location.href = `mailto:danishdeveloper22@gmail.com?subject=Portfolio Contact from ${form.name}&body=${form.message}%0A%0AFrom: ${form.email}`;
+    window.location.href = `mailto:devmidrees@gmail.com?subject=Portfolio Contact from ${form.name}&body=${form.message}%0A%0AFrom: ${form.email}`;
   };
 
   return (
@@ -53,8 +53,8 @@ const ContactSection = () => {
             </p>
             <div className="space-y-4">
               {[
-                { icon: Mail, label: "danishdeveloper22@gmail.com", href: "mailto:danishdeveloper22@gmail.com" },
-                { icon: Phone, label: "+92-349-0947904", href: "tel:+923490947904" },
+                { icon: Mail, label: "devmidrees@gmail.com", href: "mailto:devmidrees@gmail.com" },
+                { icon: Phone, label: "+92-343-3030289", href: "tel:+923433030289" },
                 { icon: MapPin, label: "Lahore, Pakistan", href: "#" },
               ].map((item, i) => (
                 <a
@@ -71,7 +71,7 @@ const ContactSection = () => {
             </div>
             <div className="flex gap-3 pt-2">
               <a
-                href="https://www.linkedin.com/in/muhammad-danish-khan-114775344"
+                href="https://www.linkedin.com/in/devmidrees"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors"
@@ -79,7 +79,7 @@ const ContactSection = () => {
                 <LinkedinIcon />
               </a>
               <a
-                href="https://github.com/danishkhan552"
+                href="https://github.com/devmidrees"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors"

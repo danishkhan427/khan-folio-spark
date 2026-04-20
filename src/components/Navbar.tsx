@@ -30,7 +30,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex items-center justify-between h-16 px-4">
         <a href="#" className="text-xl font-bold text-gradient">
-          MDK
+          MI
         </a>
 
         {/* Desktop */}
